@@ -1,0 +1,101 @@
+-----------------------------------------------
+SOBRE NOSOTROS HTML
+-------------------------------------------
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hilotext</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"> Inicio</a> 
+            <a href="#"> Acerca de</a> 
+            <a href="#"> Servicios</a>
+            <a href="#"> Contacto</a> 
+        </nav>
+
+        <section class="textos-header">
+            <h1>La comunicacion es una ventana </h1>
+            <h2> de oportunidades</h2>
+        </section>
+        <div  class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill:#fff;"></path></svg></div>
+    </header>
+
+    <main>
+        <section class="contendor">
+            <h2 class="titulo"> Nuestro producto</h2>
+            <div class="sobre-nosotros">
+                <img src="" alt="">
+                <div class="contenido-textos"></div>
+                <h3><samp>1</samp>los mejores productos</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque modi vitae molestias! Saepe quae, necessitatibus, voluptatem quia modi architecto numquam quisquam error voluptatibus ut tempore dolore, non corrupti soluta eos.</p>
+            </div>
+
+            <div class="sobre-nosotros">
+                <img src="" alt="">
+                <div class="contenido-textos"></div>
+                <h3><samp>2</samp>los mejores productos</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque modi vitae molestias! Saepe quae, necessitatibus, voluptatem quia modi architecto numquam quisquam error voluptatibus ut tempore dolore, non corrupti soluta eos.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor-footer"></div>
+        <div class="content-fooy">
+            <h4>Telefono</h4>
+            <p>0000000</p>
+        </div>
+
+        <div class="content-fooy">
+            <h4>Email</h4>
+            <p>Contacto@Hilotext.com</p>
+        </div>
+
+
+    </footer>
+</body>
+</html>
+------------------------------------------------
+
+
+nav{
+    height:75px;
+    width:100%;    
+    background-color:rgba(143, 187, 153, 0.637);
+
+    margin-left:10px ;
+    text-align: center;
+    margin: 0%;
+    
+    border-radius: 20px;
+    border: solid 1px black;
+    margin-top: 10px;
+
+    -webkit-box-sizing: border-box;
+    -moz-boz-sizing:border-box; 
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.589);
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    inset-block: 50px;
+    padding: 6px 60px 4px;
+    border-radius: 30px 30px;
+}
+nav li:hover{
+    background-color:antiquewhite;
+    -webkit-box-sizing: border-box;
+    -moz-boz-sizing:border-box; 
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.589);
+}
